@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #41221c;
+    font-style: bold;
+}
+
+body{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(images/flyer.jpg);
+}
+
