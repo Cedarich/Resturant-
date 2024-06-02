@@ -1,0 +1,171 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li a:hover {
+    transition: 4ms;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+    text-transform: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #f8f8f8;
+}
+
+.landing {
+    padding: 5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/cropped-food-wallpaper-5.jpg);
+}
+
+
+
+.site-title {
+    color: #f8f8f8;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 4em;
+}
+
+.site-description {
+    color: #f8f8f8;
+    margin: 0 auto 3em;
+    padding: 0;
+}
+
+#bite-link {
+    color: #C31241;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.gallery,
+.videos,
+.about,
+.order-form,
+.food-table {
+    background-color: #ff1500;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+
+.food-table h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.food-table table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.food-table th,
+.food-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.food-table th {
+    background-color: #000000;
+    color: white;
+}
+
+.food-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.order-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form select,
+.order-form input[type="number"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ff1500;
+    border-radius: 9px;
+}
+
+.order-form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.order-form input[type="submit"]:hover {
+    background-color: #111;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    margin: 10px;
+}
